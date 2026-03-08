@@ -1,0 +1,291 @@
+body {
+  text-align: center;
+  font-family: "Anta", sans-serif;
+  color: #2B3467;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Michroma", sans-serif;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px #EB455F;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px #EB455F;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "Michroma", sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.top-section {
+  background-color: #FCFFE7;
+  padding: 100px 0;
+  border-bottom: solid 2px #2B3467;
+}
+
+.top-heading {
+  width: 55%;
+  margin: auto;
+}
+
+.top-container {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.middle-section {
+  background-color: #BAD7E9;
+  padding: 70px 0 100px 0;
+  border-bottom: solid 2px #FCFFE7;
+}
+
+.middle-container {
+  width: 50%;
+  margin: auto;
+}
+
+.middle-container img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.button-box {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.button {
+  height: 40px;
+  width: 175px;
+  background-color: #EB455F;
+  border: solid 2px #2B3467;
+  border-radius: 7px;
+  text-align: center;
+  color: #2B3467;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px 25px;
+  margin: 0 40px;
+}
+
+.button:hover {
+  background-color: #2B3467;
+  color: #FCFFE7;
+  border: solid #FCFFE7 2px;
+}
+
+.carousel-section {
+  padding: 50px 0 100px 0;
+  background-color: #2B3467;
+  color: #FCFFE7;
+}
+
+/*Carousel CSS:*/
+/* Slideshow (Carousel) container */
+.carousel-container {
+  width: 50%;
+  position: relative;
+  margin: 100px auto;
+}
+
+.mySlides img {
+  height: auto;
+  width: 70%;
+  border-radius: 5px;
+  border: solid 2px #EB455F;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  /*margin-top: -22px;*/
+  padding: 16px;
+  color: #EB455F;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #FCFFE7;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.carousel-paragraph {
+  width: 50%;
+  margin: auto;
+}
+
+@media (max-width: 1400px) {
+  .top-heading {
+    width: 90%;
+    margin: auto;
+  }
+
+  .top-container {
+    width: 90%;
+  }
+
+  .middle-container {
+    width: 90%;
+  }
+
+  .button-box {
+    width: 90%;
+  }
+
+  .carousel-container {
+    width: 60%;
+  }
+
+  .carousel-paragraph {
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .carousel-container {
+    width: 90%;
+  }
+
+  h3 {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-section {
+    padding: 50px 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .car {
+    height: 150px;
+  }
+
+  .middle-section {
+    padding: 50px 0;
+  }
+
+  .middle-container img {
+    margin-bottom: 10px;
+  }
+
+  .carousel-section {
+    padding: 50px 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .top-section {
+    padding: 20px 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .top-container img {
+    height: 100px;
+  }
+
+  .middle-section {
+    padding: 20px 0;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  .button {
+    width: 130px;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .carousel-section {
+    padding: 20px 0;
+  }
+
+  .carousel-container {
+    margin: 50px auto;
+  }
+}

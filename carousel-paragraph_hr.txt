@@ -1,0 +1,10 @@
+            <p>Motor 2.0 TDI (turbodizel s direktnim ubrizgavanjem) nudi se u nekoliko varijanti snage u različitim
+                generacijama Octavije. Trenutna, četvrta generacija, nudi opcije od 115 KS i 150 KS, kao i snažniju RS
+                verziju.
+            </p>
+            <p>Štedljivost: Dizel motori se i dalje smatraju vrlo smislenim izborom zbog odlične potrošnje goriva, koja
+                se na testovima kombinirane vožnje kreće oko 4-5 l/100 km.</p>
+            <p>Vožnja i udobnost: Vlasnici i recenzenti hvale udobnost u vožnji, prostranu unutrašnjost i prtljažnik,
+                što je čini idealnim obiteljskim automobilom ili službenim vozilom.</p>
+            <p>Motor: Verzija od 150 KS često se ističe kao optimalan balans snage i učinkovitosti za većinu vozača.
+            </p>
